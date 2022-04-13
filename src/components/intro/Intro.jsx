@@ -83,7 +83,7 @@ const Intro = () => {
 
         <div className='intro-right'>
             <div className="intro-bg"></div>
-            {/* <img src="/images/cartoon-intro.jpeg" alt="me"  className='intro-img'/> */}
+            <img src="/images/cartoon-intro.jpeg" alt="me"  className='intro-img'/>
         </div>
         
     </div>
