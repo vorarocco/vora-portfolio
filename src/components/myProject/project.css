@@ -1,8 +1,10 @@
 .p{
     /* for 4 cards */
-    width: 22%;
+    /* width: 22%; */
     /* for 3 cards */
     /* width: 30%; */
+    /* for 2 cards */
+    width: 40%;
     height: 40vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
