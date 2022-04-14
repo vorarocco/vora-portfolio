@@ -1,6 +1,7 @@
 import React from 'react'
 import './projectList.css'
 import Project from '../myProject/Project'
+import { projects } from '../../data'
 
 const ProjectList = () => {
   return (
@@ -8,16 +9,13 @@ const ProjectList = () => {
         <div className="pl-texts">
             <h1 className="pl-title">Projects</h1>
             <p className="pldesc">
-                here is some of my projects
+                {/* here is some of my projects */}
             </p>
         </div>
         <div className="pl-list">
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-
-
+            {projects.map((item) =>(
+            <Project key={item.id} img={item.img} link={item.link}/>
+            ))}
         </div>
     </div>
   )
