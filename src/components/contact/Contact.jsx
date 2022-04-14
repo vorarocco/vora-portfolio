@@ -3,10 +3,17 @@ import { useRef } from 'react'
 import './contact.css'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import { ThemeContext } from '../../context';
+import { useContext } from 'react';
+
+
 
 const Contact = () => {
     const formRef = useRef()
     const [sent, setSent] = useState(false)
+
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode
 
     const handleSubmit = (e)=>{
         e.preventDefault()
@@ -55,16 +62,16 @@ const Contact = () => {
                     <b>Keep in touch!</b> Feel free to reach out to me for more information on career opportunities, my work or to simply connect!
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
-                    <input 
+                    <input style={{backgroundColor: darkMode && '#333'}} 
                         type="text" 
                         placeholder='Name' name='user_name'/>
-                    <input 
+                    <input style={{backgroundColor: darkMode && '#333'}} 
                         type="text" 
                         placeholder='Subject' name='user_subject'/>
-                    <input 
+                    <input style={{backgroundColor: darkMode && '#333'}} 
                         type="text" 
                         placeholder='Email' name='user_email'/>
-                    <textarea 
+                    <textarea style={{backgroundColor: darkMode && '#333'}} 
                         rows="5"
                         placeholder='Message'
                         name='message'/>
