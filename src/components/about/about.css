@@ -91,11 +91,21 @@
       height: 30vh;
     }
 
-    .about-card.bg, .about-grad {
+    .about-card.bg{
       display: none;
+    }
+
+    .about-grad{
+        width: 100%;
+    }
+
+    .about-grad-img{
+        width: 15%;
+        height: 15%;
     }
 
     .about-right{
       padding: 20px;
     }
+
 }
