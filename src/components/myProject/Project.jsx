@@ -1,8 +1,10 @@
 import './project.css'
 import React from 'react'
 
-const Project = ({img,link}) => {
+const Project = ({img,link,title}) => {
   return (
+
+   
     <div className='p'>
         <div className='p-browser'>
             <div className="p-circle"></div>
@@ -13,7 +15,10 @@ const Project = ({img,link}) => {
         <img src={img} alt="img" className='p-img'/>
         </a>
         
+        
     </div>
+  
+
   )
 }
 

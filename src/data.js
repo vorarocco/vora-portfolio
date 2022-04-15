@@ -3,13 +3,15 @@ export const projects =[
         id: 1,
         img:"/images/project1.png",
         link:"https://vorarocco.github.io/Thai-Matching-Game/",
-        code:"https://github.com/vorarocco/Thai-Matching-Game"
+        code:"https://github.com/vorarocco/Thai-Matching-Game",
+        title:"Thai Alphabet Matching Game "
     },
     {
         id: 2,
         img:"/images/project2.png",
         link:"https://babygrowthapp.herokuapp.com/",
-        code:"https://github.com/vorarocco/BabyGrowth"
+        code:"https://github.com/vorarocco/BabyGrowth",
+        title:"Thai Alphabet Matching Game "
     },
     {
         id: 3,
@@ -17,12 +19,15 @@ export const projects =[
         link:"https://playfrontend.herokuapp.com/",
         codeFrontEnd:"https://github.com/vorarocco/play-front-end",
         codeBackEnd:"https://github.com/vorarocco/play-back-end",
+        title:"Thai Alphabet Matching Game "
+
 
     },
     {
         id: 4,
-        img:"",
-        link:"",
-        code:""
+        img:"/images/social.jpeg",
+        link:"https://github.com/Cookbook-Group",
+        codeFrontEnd:"https://social-meal-dia.herokuapp.com/",
+        codeBackEnd:"https://social-meal-dia-backend.herokuapp.com/"
     },
 ]
