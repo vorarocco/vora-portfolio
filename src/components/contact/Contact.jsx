@@ -75,7 +75,7 @@ const Contact = () => {
                         rows="5"
                         placeholder='Message'
                         name='message'/>
-                    <button>Submit</button>
+                    <button className='growbt'>Submit</button>
 {/* message after email sent */}
                     {sent && "Your message is sent! Thank you :)"}
                 </form>

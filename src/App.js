@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import Intro from './components/intro/Intro';
 import ProjectList from './components/projectList/ProjectList';
 import Toggle from './components/toggle/Toggle';
@@ -17,6 +18,7 @@ function App() {
     <About/>
     <ProjectList/>
     <Contact/>
+    <Footer/>
     </div>
   );
 } 

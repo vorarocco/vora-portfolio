@@ -21,7 +21,9 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: #333;
+    /* background-color: #333; */
+    background-image:  linear-gradient(to right, rgb(247, 204, 210), rgb(241, 138, 152));
+    
 }
 
 .about-card{

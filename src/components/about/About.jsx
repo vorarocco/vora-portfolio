@@ -7,16 +7,16 @@ const About = () => {
         <div className="about-left">
             <div className="about-card bg"></div>
             <div className="about-card">
-                <img src="/images/about-bg.jpeg" alt="about" className='about-img'/>
+                <img src="/images/aboutme.jpeg" alt="about" className='about-img'/>
             </div>
         </div>
         <div className="about-right">
             <h1 className="about-title">About Me</h1>
             <p className="about-sub"> 
-                Voravadee is native of Thailand and has lived in the Boston since 2019. She has been working as a event planning, TV production and licen massage therapist.  
+                I'm a native of Thailand and who has lived in Boston since 2019. While working in tv production, I worked on a team that produce a highly-acclaimed biography of the IX king of Thailand for public brodcasting. I'm a creative problem solver and a hard-worker who thrives under stressful conditions and never misses a deadline. I'm a life long language learner: first Japanses, then English and now computer language.   
             </p>
             <p className="about-desc">
-            I've just graduated from General Assembly’s Software Engineering Immersive bootcamp, in Boston, MA. This portfolio showcases a few of my projects. where 
+            I've just graduated from General Assembly’s Software Engineering Immersive bootcamp, in Boston, MA. This portfolio showcases a few of my projects. 
             I worked indivudially and collaboratively to create apps, webpages and games.
             </p>
             <div className="about-grad">

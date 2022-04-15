@@ -74,10 +74,22 @@ textarea {
 button {
     border: none;
     padding: 15px;
-    background-color: #59b256;
+    background-color: rgb(250, 117, 135);
     color: white;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 10%;
+}
+
+.growbt{
+    transition: 1s ease;
+    }
+    
+.growbt:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 
 @media screen and (max-width: 480px) {
